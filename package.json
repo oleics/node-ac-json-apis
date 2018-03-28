@@ -1,0 +1,20 @@
+{
+  "name": "ac-json-apis",
+  "version": "0.0.0-alpha",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "author": "Oliver Leics <oliver.leics@gmail.com>",
+  "repository": "",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^6.4.0",
+    "axios": "^0.18.0",
+    "url-parse": "^1.2.0"
+  },
+  "devDependencies": {
+    "json-schema-faker": "^0.5.0-rc13"
+  }
+}
