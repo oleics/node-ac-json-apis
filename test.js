@@ -18,8 +18,11 @@ reg
     type: 'chronicles',
     url: 'https://chroniclingamerica.loc.gov/search/titles/results/?terms={{q}}&format=json&page={{page}}',
     defaults: {
-      page: 1,
-    }
+      input: {
+        page: 1,
+      }
+    },
+    toplevel: true
   })
   .addApi({
     type: 'weather-location',

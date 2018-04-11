@@ -6,7 +6,7 @@ ac-json-apis
   * chain several json-apis into one call
   * transform api-io (chained map-functions)
   * validate api-io (via json-schema)
-  * link the result of api-calls to one object
+  * merge the result of multiple api-calls to one object
 
 Install
 -------
@@ -40,6 +40,8 @@ return api.get({
   })
 
 ```
+
+To be continued...
 
 MIT License
 -----------
